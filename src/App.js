@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.scss'
+import './App.css'
 import { Footer, Blog,Header, Features, WhatIA, Posibilities } from './containers'
 import { Brand,Action, Navbar } from './components'
 const App = () => {
