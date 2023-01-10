@@ -1,12 +1,66 @@
 //Variaveis globaus
 $Background: #f7e8e8;
+$Links: #5608a6;
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: $Background;
 }
+
+a {
+    text-decoration: none;
+    color: $Links;
+}
+
+.gradient_bg {
+    background: rgb(95, 215, 217);
+    background: radial-gradient(circle, rgba(95, 215, 217, 1) 0%, rgba(145, 45, 192, 1) 17%);
+}
+
+.gradient_text {
+    background: $Background;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section_paddind {
+    padding: 3rem 5rem;
+}
+
+.section_margin {
+    padding: 3rem 5rem;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
