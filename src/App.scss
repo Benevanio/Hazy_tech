@@ -1,66 +1,93 @@
-//Variaveis globaus
-$Background: #f7e8e8;
-$Links: #5608a6;
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: $Background;
+  background: var(--color-bg);
 }
 
 a {
-    text-decoration: none;
-    color: $Links;
+  color: unset;
+  text-decoration: none;
 }
 
-.gradient_bg {
-    background: rgb(95, 215, 217);
-    background: radial-gradient(circle, rgba(95, 215, 217, 1) 0%, rgba(145, 45, 192, 1) 17%);
+.gradient__bg {
+  background:-moz-radial-gradient(circle at 3% 25%, rgb(155, 172, 189) 0%, rgb(110, 141, 189) 25%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgb(130, 162, 196) 0%, rgb(36, 111, 224) 25%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgb(175, 194, 214) 0%, rgb(54, 106, 185) 25%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgb(185, 208, 233) 0%, rgb(170, 201, 248) 25%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgb(118, 128, 139) 0%, rgb(146, 168, 201) 25%);
 }
 
-.gradient_text {
-    background: $Background;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.section_paddind {
-    padding: 3rem 5rem;
+.section__padding {
+  padding: 4rem 6rem;
 }
 
-.section_margin {
-    padding: 3rem 5rem;
+.section__margin {
+  margin: 4rem 6rem;
 }
 
 .scale-up-center {
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
- @-webkit-keyframes scale-up-center {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
-  @keyframes scale-up-center {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
-  
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }  
+}
