@@ -8,10 +8,12 @@ const Possibilities = () => {
         <img src={PossibilitiesImage}/>
       </div>
       <div className='AI_possibility-text'>
-        <h4 className='AI_possibility-title gradient__text'>Solicite acesso Para continuar</h4>
+        <h4 className='AI_possibility-title gradient__text'>O futuro esta em suas maos!!!</h4>
         <h1 className='gradient__text'>
          <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium doloribus nam obcaecati quod atque? Fugit id porro, impedit voluptatibus assumenda adipisci ullam cupiditate accusantium quos ut cumque possimus, tempore at!
+          Torne a tecnologia uma aliada do seu negocio, automatize processos, aumente a produtividade e reduza custos.
+          <br/>
+          WELCOME TO THE FUTURE!!!
          </p>
         </h1>
 

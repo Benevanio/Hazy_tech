@@ -1,0 +1,83 @@
+.AI__ACTION{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem ;
+    border-radius: 1rem;
+    background: var(--gradient-bar);
+}
+.AI__ACTION__CONTENT p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--color-text);
+}
+
+.AI__ACTION__CONTENT h3 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--color-text);
+}
+.AI__ACTION__BTN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: var(--gradient-text);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.AI__ACTION__BTN button{
+    background: rgb(3, 3, 3);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 30px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    min-width: 15px;
+}
+@media screen and (max-width: 700px) {
+    .AI__ACTION{
+        flex-direction: column;
+    }
+    .AI__ACTION__CONTENT{
+        margin-bottom: 2rem;
+    }
+    .AI__ACTION__BTN{
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .AI__ACTION{
+        padding: 2rem 1rem;
+        margin: 4rem 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) 
+{
+    .AI__ACTION{
+        padding: 2rem 1rem;
+        margin: 4rem 1rem;
+    }
+}
