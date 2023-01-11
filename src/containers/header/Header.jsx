@@ -25,7 +25,7 @@ const Header = () => {
         <img src={people2} alt="pessoas "/>
         <img src={people3} alt="pessoas "/>
         
-        <p>1600 pessoas já estão usando a Auto_Com para construir suas IAs e gerir as suas empresas
+        <p>1600 pessoas já estão usando a Auto_Com para construir suas IAs e gerir as suas empresas,Venha para o futuro!!!
         </p>
       </div>
     </div>

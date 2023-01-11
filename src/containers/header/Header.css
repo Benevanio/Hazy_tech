@@ -23,7 +23,7 @@
 
 .AI__header-content p {
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     color: var(--color-text);
@@ -96,10 +96,10 @@
 .AI__header-content__people p {
     margin: 0 0 0 1rem;
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: 700;
+    font-size: 18px;
     line-height: 38px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -117,7 +117,6 @@
     object-fit: contain;
     border-radius:150px;  
 }
-
 @media screen and (max-width: 1050px) {
     .AI__header {
         flex-direction: column;
