@@ -6,7 +6,7 @@ import './Blog.css';
 const Blog = () => (
   <div className="AI__blog section__padding" id="blog">
     <div className="AI__blog-heading">
-      <h1 className="gradient__text">A lot is happening, <br /> We are blogging about it.</h1>
+      <h1 className="gradient__text">Muita coista esta acontecendo neste momento, <br />veja como podemos te ajudar com isso</h1>
     </div>
     <div className="AI__blog-container">
       <div className="AI__blog-container_groupA">
