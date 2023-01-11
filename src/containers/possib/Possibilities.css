@@ -1,0 +1,44 @@
+.Ai__possibilidades {
+    display: flex;
+    flex-direction: row;
+}
+
+.AI_possibility-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-right: 1rem;
+}
+
+.AI_possibility-image img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    box-sizing: content-box;
+    border-radius: 15px;    
+}
+.AI_possibility-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+.AI_possibility-text h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+.AI_possibility-text h1:last-child{
+    margin-bottom: 0;
+}
+.AI_possibility-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}

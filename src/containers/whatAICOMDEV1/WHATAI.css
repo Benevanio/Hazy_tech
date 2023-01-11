@@ -71,16 +71,16 @@
 
 .AI__whatAI-container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    color: #ddd;
-    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 2rem;
+    color:#ddd;
     font-size: large;
     font-weight: 500;
     font-family: var(--font-family);
-    padding: 2rem;
-    margin: 2rem auto;
-    letter-spacing: 5px;
+       
 }
 
 
