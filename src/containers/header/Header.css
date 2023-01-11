@@ -80,9 +80,7 @@ button:hover {
     background: linear-gradient(332deg, rgba(192,45,147,1) 1%, rgba(18,182,217,1) 63%);
     border: 2px solid rgb(192,45,147);
     color: rgb(0, 0, 0);
-    font-size: large;
-    font-weight: 700;
-    font-family: var(--font-family);
+   
 }
 .AI__header-content__people {
     width: 100%;
