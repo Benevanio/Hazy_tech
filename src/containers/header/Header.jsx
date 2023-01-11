@@ -31,9 +31,7 @@ const Header = () => {
     <div className="AI__header-image">
       <img src={ai} alt="IA"/>
     </div>
-    
   </div>
-  )
+)
 }
-
 export default Header
