@@ -3,8 +3,8 @@ import './Brand.css'
 import {google,Slack,Atlassian,Shopify, DropBox } from "./importsimgs"
 const Brand = () => {
   return (
-    <div className='AI_brand section__padding'>
-      <div >
+    <div className='AI__brand section__padding'>
+      <div>
         <img src={google} alt='google' />
       </div>
       <div >
