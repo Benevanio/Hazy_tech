@@ -75,7 +75,11 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
+button:hover {
+    background: #2e02f5;
+    border: 2px solid #e3ee83;
+    color: rgb(241, 234, 234);
+}
 .AI__header-content__people {
     width: 100%;
     display: flex;

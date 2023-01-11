@@ -14,7 +14,6 @@ const Header = () => {
       <p>
         Nos somos a Auto_Com  uma empresa especiliazada em desenvolver softwares para atender as demandas dos nossoa clientes.
       </p>
-
       <div className="AI__header-content__input">
         <input type="email" placeholder="Seu Email" />
         <button type="button">Quero saber Mais</button>
