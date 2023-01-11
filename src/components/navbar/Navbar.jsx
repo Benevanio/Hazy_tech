@@ -14,10 +14,10 @@ const Navbar = () => {
         </div>
         <div className="AI__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#devAi">What is DEVAI?</a></p>
-          <p><a href="#possibility">Open DEV</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
+            <p><a href="#devAi">IA da Auto-com</a></p>
+            <p><a href="#possibility">Auto-com IA</a></p>
+            <p><a href="#features">Casos de Sucesso</a></p>
+            <p><a href="#blog">Blog</a></p>
         </div>
       </div>
       <div className="AI__navbar-sign">
@@ -32,10 +32,10 @@ const Navbar = () => {
         <div className="AI__navbar-menu_container scale-up-center">
           <div className="AI__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#devAi">What is DEVAI?</a></p>
-            <p><a href="#possibility">Open DEV</a></p>
-            <p><a href="#features">Case Studies</a></p>
-            <p><a href="#blog">Library</a></p>
+            <p><a href="#devAi">IA da Auto-com</a></p>
+            <p><a href="#possibility">Auto-com IA</a></p>
+            <p><a href="#features">Casos de Sucesso</a></p>
+            <p><a href="#blog">Blog</a></p>
           </div>
           <div className="AI__navbar-menu_container-links-sign">
             <p>Sign in</p>

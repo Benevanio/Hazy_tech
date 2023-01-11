@@ -1,5 +1,5 @@
 import React from 'react'
-import './Action.scss'
+import './Action.css'
 const Action = () => {
   return (
     <div>Action</div>

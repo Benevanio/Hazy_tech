@@ -1,5 +1,5 @@
 import React from 'react'
-import  './Blog.scss'
+import  './Blog.css'
 const Blog = () => {
   return (
     <div>Blog</div>

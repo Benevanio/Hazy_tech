@@ -1,5 +1,5 @@
 import React from 'react'
-import './Possibilities.scss'
+import './Possibilities.css'
 const Possibilities = () => {
   return (
     <div>Possibilities</div>
