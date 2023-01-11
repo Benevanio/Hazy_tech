@@ -76,7 +76,8 @@
     border-bottom-right-radius: 5px;
 }
 button:hover {
-    background: #2e02f5;
+    background: rgb(192,45,147);
+    background: linear-gradient(332deg, rgba(192,45,147,1) 1%, rgba(18,182,217,1) 63%);
     border: 2px solid #e3ee83;
     color: rgb(241, 234, 234);
 }
