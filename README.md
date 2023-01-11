@@ -53,11 +53,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### WEB VERSION
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![WEB](https://user-images.githubusercontent.com/78994881/211908950-cb9a8944-52df-40e0-a688-beb8648ee00e.png)
 
-### Advanced Configuration
+
+
+### MOBILE VERSION
+![MOBILE VERSION](https://user-images.githubusercontent.com/78994881/211909190-8eb51e7a-1c38-4d2a-85ed-056e6b0b6bef.png)
+
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
