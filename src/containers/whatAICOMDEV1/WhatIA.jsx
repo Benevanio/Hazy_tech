@@ -17,7 +17,6 @@ const WhatIA = () => {
       </div>
       <div className='AI__whatAI-container'>
         <Features />
-      
         <Features />
         <Features />
       </div>
